@@ -1,0 +1,146 @@
+.card-container {
+    text-align: center;
+    margin: 40px 0;
+    
+}
+
+.trending-products-title {
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.trending-layout {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    padding: 20px 80px;
+
+}
+
+.cardss img {
+    /* width: 100%;
+    height: auto; */
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.text{
+    font-weight: bold;
+    color: #111;
+    font-size: 1.5rem;
+}
+
+/* @media (max-width: 1024px) {
+    .card-layout {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 500px;
+    }
+} */
+
+/* @media (max-width: 600px) {
+    .card-layout {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+} */
+
+/* @media (max-width: 597px) {
+    .card-layout {
+        display: inline-block;
+        width: 200px;
+    }
+
+    .card-layout-container {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+} */
+
+
+
+
+.cardss {
+    /* border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+   
+    background: #f0f0f0; */
+
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 400px;
+
+    background: #f0f0f0;
+}
+
+.card-contents{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.card-contents .cardImg{
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+
+.card-buttons{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.card-button{
+    width: 100%;
+}
+
+.card-buttons button {
+    background: royalblue;
+    color: #fff;
+    padding: 8px 10px;
+    outline: none;
+    border: none;
+    border-right: 1px solid #fff; 
+    cursor: pointer;
+}
+
+.card-contents{
+    display: flex;
+}
+
+@media (max-width: 1192px){ 
+.trending-layout{ 
+
+flex-direction: column;
+    /* align-items: center; */
+    /* display: grid; */
+    /* gap: 20px; */
+    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: center;
+    align-items: center;
+}
+}

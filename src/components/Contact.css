@@ -1,0 +1,54 @@
+.contact-card{
+    /* line-height: 1;
+    margin-top: 30px;
+    margin-left: 0; */
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding: 20px 20px;
+    line-height: 1.5;
+}
+
+
+.contact-card img{
+    width: 240px;
+    border-radius: 10px;
+}
+
+.contact-card .info{
+    position: relative;
+    line-height: 2;
+}
+
+.contact-card .locinfo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;   
+}
+
+.contact-card .info .desc .dates{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-card .info .locinfo,
+.contact-card .info .desc{
+    transform: translateY(-70px);
+    /* position: absolute; */
+}
+
+.contact-card .info .desc p.describe{
+    max-width: 800px;
+
+}
+
+.contact-card h2{
+    font-size: 2rem;
+}
+
+.contact-card h2, .contact-card p{
+    text-align: center;
+    font-family: sans-serif;
+}
